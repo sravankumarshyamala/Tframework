@@ -1,0 +1,47 @@
+<suite name="Stock">
+
+  
+<test name="Supplier">
+<parameter name="suppname" value="Sravan"></parameter>
+<parameter name="Address" value="1-6-119/A"></parameter>
+<parameter name="city" value="Hyderabad"></parameter>
+<parameter name="country" value="India"></parameter>
+<parameter name="contactperson" value="SSK"></parameter>
+<parameter name="phonenumber" value="9948295941"></parameter>
+<parameter name="email" value="ssk@gmail.com"></parameter>
+<parameter name="Mobileno" value="9948285841"></parameter>
+<parameter name="note" value="sravan"></parameter>
+
+<classes>
+
+<class name="testcase.Main_S"></class>
+
+</classes>
+
+
+</test>
+
+
+<test name="customer">
+<parameter name="customername" value="Sai"></parameter>
+<parameter name="Address" value="1-6-119/A"></parameter>
+<parameter name="city" value="Hyderabad"></parameter>
+<parameter name="country" value="India"></parameter>
+<parameter name="contactperson" value="ssk"></parameter>
+<parameter name="phonenumber" value="994885422994"></parameter>
+<parameter name="email" value="sk@gmail.com"></parameter>
+<parameter name="Mobileno" value="9985422991"></parameter>
+<parameter name="notes" value="Sai"></parameter>
+<classes>
+
+<class name="testcase.Main_C"></class>
+</classes>
+
+
+
+
+</test>
+
+
+
+</suite>

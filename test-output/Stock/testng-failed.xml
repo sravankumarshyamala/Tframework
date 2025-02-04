@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Stock]">
+  <test thread-count="5" name="customer(failed)">
+    <parameter name="Mobileno" value="9985422991"/>
+    <parameter name="country" value="India"/>
+    <parameter name="contactperson" value="ssk"/>
+    <parameter name="notes" value="Sai"/>
+    <parameter name="Address" value="1-6-119/A"/>
+    <parameter name="city" value="Hyderabad"/>
+    <parameter name="phonenumber" value="994885422994"/>
+    <parameter name="customername" value="Sai"/>
+    <parameter name="email" value="sk@gmail.com"/>
+    <classes>
+      <class name="testcase.Main_C">
+        <methods>
+          <include name="launch"/>
+          <include name="Blogout"/>
+          <include name="customer" invocation-numbers="0"/>
+          <include name="Blogin"/>
+          <include name="close"/>
+        </methods>
+      </class> <!-- testcase.Main_C -->
+    </classes>
+  </test> <!-- customer(failed) -->
+</suite> <!-- Failed suite [Stock] -->

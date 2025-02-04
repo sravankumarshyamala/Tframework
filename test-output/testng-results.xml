@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-02T16:12:20 IST" name="Stock" finished-at="2025-02-02T16:13:31 IST" duration-ms="70792">
+    <groups>
+    </groups>
+    <test started-at="2025-02-02T16:12:20 IST" name="Supplier" finished-at="2025-02-02T16:12:58 IST" duration-ms="37472">
+      <class name="testcase.Main_S">
+        <test-method is-config="true" signature="Blogin()[pri:0, instance:testcase.Main_S@4b013c76]" started-at="2025-02-02T16:12:20 IST" name="Blogin" finished-at="2025-02-02T16:12:26 IST" duration-ms="6231" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blogin -->
+        <test-method signature="supp(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.Main_S@4b013c76]" started-at="2025-02-02T16:12:27 IST" name="supp" finished-at="2025-02-02T16:12:54 IST" duration-ms="27613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sravan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1-6-119/A]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[SSK]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9948295941]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[ssk@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9948285841]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[sravan]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- supp -->
+        <test-method is-config="true" signature="Blogout()[pri:0, instance:testcase.Main_S@4b013c76]" started-at="2025-02-02T16:12:54 IST" name="Blogout" finished-at="2025-02-02T16:12:58 IST" duration-ms="3555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blogout -->
+      </class> <!-- testcase.Main_S -->
+    </test> <!-- Supplier -->
+    <test started-at="2025-02-02T16:12:58 IST" name="customer" finished-at="2025-02-02T16:13:31 IST" duration-ms="33223">
+      <class name="testcase.Main_C">
+        <test-method is-config="true" signature="launch()[pri:0, instance:testcase.Main_C@231f98ef]" started-at="2025-02-02T16:12:18 IST" name="launch" finished-at="2025-02-02T16:12:20 IST" duration-ms="2278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method is-config="true" signature="Blogin()[pri:0, instance:testcase.Main_C@231f98ef]" started-at="2025-02-02T16:12:58 IST" name="Blogin" finished-at="2025-02-02T16:12:59 IST" duration-ms="714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blogin -->
+        <test-method signature="customer(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcase.Main_C@231f98ef]" started-at="2025-02-02T16:12:59 IST" name="customer" finished-at="2025-02-02T16:13:27 IST" duration-ms="28913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sai]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1-6-119/A]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Hyderabad]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ssk]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[994885422994]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[sk@gmail.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[9985422991]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[Sai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customer -->
+        <test-method is-config="true" signature="Blogout()[pri:0, instance:testcase.Main_C@231f98ef]" started-at="2025-02-02T16:13:27 IST" name="Blogout" finished-at="2025-02-02T16:13:31 IST" duration-ms="3587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Blogout -->
+        <test-method is-config="true" signature="close()[pri:0, instance:testcase.Main_C@231f98ef]" started-at="2025-02-02T16:13:31 IST" name="close" finished-at="2025-02-02T16:13:31 IST" duration-ms="120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- testcase.Main_C -->
+    </test> <!-- customer -->
+  </suite> <!-- Stock -->
+</testng-results>

@@ -1,0 +1,12 @@
+<suite name="Flight registration">
+
+<test name="flight registration">
+
+<parameter name="name" value="sravan"></parameter>
+<classes>
+
+<class name="testcase.Main_M"> </class>
+</classes>
+</test>
+
+</suite>
