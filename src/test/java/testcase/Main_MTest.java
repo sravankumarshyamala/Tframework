@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 import functionlibrary.Main_flight;
 import functionlibrary.flight_reg;
 
-public class Main_M extends Main_flight
+public class Main_MTest extends Main_flight
 
 {
 	@Parameters({"name"})

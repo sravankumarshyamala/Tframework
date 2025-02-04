@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 import functionlibrary.Bstock;
 import functionlibrary.Stockmain;
 
-public class Main_S extends Bstock
+public class Main_Stest extends Bstock
 
 {
 	@Parameters({"suppname","Address","city","country","contactperson","phonenumber","email","Mobileno","note"})
